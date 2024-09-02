@@ -44,7 +44,7 @@ values (3, "Av. Pres. Médici, 1001 - Morada da Colina, Uberlândia - MG, 38411-
 INSERT INTO address (user_id, address_description)
 values (4, "Av. Paulo Gracindo, 15 - 19-A - Morada da Colina, Uberlândia - MG, 38411-145");
 INSERT INTO address (user_id, address_description)
-values (5, "Rua João Balbino 1164 - Sala 09, CEP 38.408-262 - Santa Mônica, Uberlândia - MG");
+values (5, "Rua João Balbino, 10, Uberlândia, MG");
 
 
 SELECT u.user_name, ut.user_type_name, a.address_description 
