@@ -1,7 +1,7 @@
 from geopy.geocoders import Nominatim
 
 geolocator = Nominatim(user_agent= 'app.py')
-location = geolocator.geocode("Rua João Balbino 1164, CEP 38408262, Santa Mônica, Uberlândia")
+location = geolocator.geocode("Rua João Balbino, 10, Uberlândia, MG")
 print(location.latitude, location.longitude)
 
 import sqlite3 
